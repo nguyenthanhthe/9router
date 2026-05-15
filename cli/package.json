@@ -19,6 +19,7 @@
     "pack:cli": "npm run build && npm pack --pack-destination ../..",
     "publish:cli": "npm run build && npm publish",
     "postinstall": "node hooks/postinstall.js",
+    "uninstall": "node hooks/uninstall.js",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
